@@ -1,0 +1,28 @@
+student_name = input("enter the student name: ")  
+print("Hi " + student_name)
+city_name = input("enter the name of city: ")
+print("The city name is ",city_name,":-)")
+age = int(input("enter the age: ")) #every input is str but here we convert it into int 
+print(type(age)) 
+age2= int(age)
+print(int(age2))
+print(type(age2))
+print ("age = ",age)
+get_email = input (" want to get email, y/n? : ")
+print ("get email = " + get_email)
+print("it's a quote")
+print('I said, "we can use/print doube quote now it string like this"')
+# Boolean string Test
+print("Python".isalpha())
+"3rd".isalnum()
+"A Cold Stormy Night".istitle()
+"1003".isdigit()
+cm_height = "176"
+print("cm height:",cm_height, "is all digits =",cm_height.isdigit())
+print("SAVE".islower())
+print("SAVE".isupper())
+"Boolean".startswith("B")
+print("alphabetical".isalpha())
+print("Are spaces and punctuation Alphabetical?".isalpha())
+menu = "salad, pasta, sandwich, pizza, drinks, dessert"
+print('pizza' in menu)
